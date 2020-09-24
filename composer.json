@@ -1,0 +1,23 @@
+{
+    "name": "manuel90/tester-email",
+    "description": "Form to test sengin email",
+    "authors": [
+        {
+            "name": "Manuel",
+            "email": "testmlzra@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Manuel90\\TesterEmail\\": "src/"
+        }
+    },
+    "extra": {
+    	"laravel": {
+    		"providers": [
+    			"Manuel90\\TesterEmail\\TesterEmailServiceProvider"
+            ]
+    	}
+    }
+}
