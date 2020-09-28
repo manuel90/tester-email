@@ -5,9 +5,6 @@ namespace Manuel90\TesterEmail;
 use Illuminate\Support\ServiceProvider;
 
 
-
-use TCG\Voyager\Facades\Voyager;
-
 class TesterEmailServiceProvider extends ServiceProvider
 {
     /**
